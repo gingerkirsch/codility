@@ -1,4 +1,4 @@
-package com.codility.calcium
+package com.codility.challenges.calcium
 
 
 trait SpeedCameras {
