@@ -1,6 +1,8 @@
 package com.codility.lessons.arrays
 
 object CyclicRotation {
+
+  // 100% score
   def solution(a: Array[Int], k: Int): Array[Int] = {
     def rotate(l: List[Int], k: Int): List[Int] = {
       val result = List(l.last) ::: l.take(l.length-1)

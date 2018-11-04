@@ -4,7 +4,7 @@ import scala.collection.mutable.Stack
 
 object EquiLeader {
   def solution(a: Array[Int]): Int = {
-    // O (n^2)
+    // O (n**2) 55% score
     def leader(a: Array[Int]): Int = a.length match {
       case 0 => -1
       case 1 => a(0)

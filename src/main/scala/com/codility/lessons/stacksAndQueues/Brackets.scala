@@ -1,6 +1,8 @@
 package com.codility.lessons.stacksAndQueues
 
 object Brackets {
+
+  // 37% score :( poor
   def solution(s: String): Int = {
     val arr = s.toCharArray
     val stack = Array.ofDim[Char](s.length)

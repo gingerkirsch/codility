@@ -1,6 +1,8 @@
 package com.codility.lessons.prefixSums
 
 object PassingCars {
+
+  // 100% score
   def solution(a: Array[Int]): Int = {
     var goingEast = 0;
     var result = 0;

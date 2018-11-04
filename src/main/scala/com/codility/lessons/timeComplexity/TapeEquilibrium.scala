@@ -1,7 +1,8 @@
 package com.codility.lessons.timeComplexity
 
 object TapeEquilibrium {
-  // 100% performance => 91% correctness
+
+  // 91% score
   def solution(a: Array[Int]): Int = a.length match {
     case 2 if a(0) > a(1) => a(0)
     case 2 if a(1) > a(0) => a(1)

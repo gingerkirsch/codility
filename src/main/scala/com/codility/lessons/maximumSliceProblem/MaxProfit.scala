@@ -1,4 +1,8 @@
+package com.codility.lessons.maximumSliceProblem
+
 object Solution {
+
+  // 100% score
   def solution(a: Array[Int]): Int = {
     fastSolution(a)
   }

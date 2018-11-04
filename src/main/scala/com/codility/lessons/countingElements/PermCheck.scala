@@ -1,6 +1,8 @@
 package com.codility.lessons.countingElements
 
 object PermCheck {
+
+  // 100% score
   def solution(a: Array[Int]): Int = {
     val n = a.length
     val sumOfPermutation = (n * (n + 1)) / 2

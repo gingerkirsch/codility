@@ -1,6 +1,8 @@
 package com.codility.lessons.iterations
 
 object BinaryGap {
+
+  // 100% score
   def solution(n: Int): Int = {
     def toBinaryString(n: Int): String = {
       var binaryString = ""
